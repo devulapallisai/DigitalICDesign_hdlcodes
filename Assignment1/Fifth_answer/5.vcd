@@ -1,0 +1,652 @@
+$date
+	Tue Nov 29 23:12:05 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Assignment_1_e_tb $end
+$var wire 16 ! Y [15:0] $end
+$var reg 4 " X0 [3:0] $end
+$var reg 4 # X1 [3:0] $end
+$var reg 4 $ X2 [3:0] $end
+$var reg 4 % X3 [3:0] $end
+$var reg 4 & X4 [3:0] $end
+$var reg 4 ' X5 [3:0] $end
+$var reg 4 ( X6 [3:0] $end
+$var reg 4 ) X7 [3:0] $end
+$var reg 4 * X8 [3:0] $end
+$var reg 4 + X9 [3:0] $end
+$var reg 1 , clk $end
+$var integer 32 - i [31:0] $end
+$scope module m1 $end
+$var wire 4 . X0 [3:0] $end
+$var wire 4 / X1 [3:0] $end
+$var wire 4 0 X2 [3:0] $end
+$var wire 4 1 X3 [3:0] $end
+$var wire 4 2 X4 [3:0] $end
+$var wire 4 3 X5 [3:0] $end
+$var wire 4 4 X6 [3:0] $end
+$var wire 4 5 X7 [3:0] $end
+$var wire 4 6 X8 [3:0] $end
+$var wire 4 7 X9 [3:0] $end
+$var wire 1 , clk $end
+$var reg 16 8 Y [15:0] $end
+$scope module h1 $end
+$var wire 1 , clk $end
+$var wire 4 9 h [3:0] $end
+$var wire 4 : x [3:0] $end
+$var wire 16 ; out4 [15:0] $end
+$var wire 16 < out3 [15:0] $end
+$var wire 16 = out2 [15:0] $end
+$var wire 16 > out1 [15:0] $end
+$var wire 16 ? out [15:0] $end
+$var wire 1 @ isbitpresent3 $end
+$var wire 1 A isbitpresent2 $end
+$var wire 1 B isbitpresent1 $end
+$var wire 1 C isbitpresent0 $end
+$upscope $end
+$scope module h10 $end
+$var wire 1 , clk $end
+$var wire 4 D h [3:0] $end
+$var wire 4 E x [3:0] $end
+$var wire 16 F out4 [15:0] $end
+$var wire 16 G out3 [15:0] $end
+$var wire 16 H out2 [15:0] $end
+$var wire 16 I out1 [15:0] $end
+$var wire 16 J out [15:0] $end
+$var wire 1 K isbitpresent3 $end
+$var wire 1 L isbitpresent2 $end
+$var wire 1 M isbitpresent1 $end
+$var wire 1 N isbitpresent0 $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 , clk $end
+$var wire 4 O h [3:0] $end
+$var wire 4 P x [3:0] $end
+$var wire 16 Q out4 [15:0] $end
+$var wire 16 R out3 [15:0] $end
+$var wire 16 S out2 [15:0] $end
+$var wire 16 T out1 [15:0] $end
+$var wire 16 U out [15:0] $end
+$var wire 1 V isbitpresent3 $end
+$var wire 1 W isbitpresent2 $end
+$var wire 1 X isbitpresent1 $end
+$var wire 1 Y isbitpresent0 $end
+$upscope $end
+$scope module h3 $end
+$var wire 1 , clk $end
+$var wire 4 Z h [3:0] $end
+$var wire 4 [ x [3:0] $end
+$var wire 16 \ out4 [15:0] $end
+$var wire 16 ] out3 [15:0] $end
+$var wire 16 ^ out2 [15:0] $end
+$var wire 16 _ out1 [15:0] $end
+$var wire 16 ` out [15:0] $end
+$var wire 1 a isbitpresent3 $end
+$var wire 1 b isbitpresent2 $end
+$var wire 1 c isbitpresent1 $end
+$var wire 1 d isbitpresent0 $end
+$upscope $end
+$scope module h4 $end
+$var wire 1 , clk $end
+$var wire 4 e h [3:0] $end
+$var wire 4 f x [3:0] $end
+$var wire 16 g out4 [15:0] $end
+$var wire 16 h out3 [15:0] $end
+$var wire 16 i out2 [15:0] $end
+$var wire 16 j out1 [15:0] $end
+$var wire 16 k out [15:0] $end
+$var wire 1 l isbitpresent3 $end
+$var wire 1 m isbitpresent2 $end
+$var wire 1 n isbitpresent1 $end
+$var wire 1 o isbitpresent0 $end
+$upscope $end
+$scope module h5 $end
+$var wire 1 , clk $end
+$var wire 4 p h [3:0] $end
+$var wire 4 q x [3:0] $end
+$var wire 16 r out4 [15:0] $end
+$var wire 16 s out3 [15:0] $end
+$var wire 16 t out2 [15:0] $end
+$var wire 16 u out1 [15:0] $end
+$var wire 16 v out [15:0] $end
+$var wire 1 w isbitpresent3 $end
+$var wire 1 x isbitpresent2 $end
+$var wire 1 y isbitpresent1 $end
+$var wire 1 z isbitpresent0 $end
+$upscope $end
+$scope module h6 $end
+$var wire 1 , clk $end
+$var wire 4 { h [3:0] $end
+$var wire 4 | x [3:0] $end
+$var wire 16 } out4 [15:0] $end
+$var wire 16 ~ out3 [15:0] $end
+$var wire 16 !" out2 [15:0] $end
+$var wire 16 "" out1 [15:0] $end
+$var wire 16 #" out [15:0] $end
+$var wire 1 $" isbitpresent3 $end
+$var wire 1 %" isbitpresent2 $end
+$var wire 1 &" isbitpresent1 $end
+$var wire 1 '" isbitpresent0 $end
+$upscope $end
+$scope module h7 $end
+$var wire 1 , clk $end
+$var wire 4 (" h [3:0] $end
+$var wire 4 )" x [3:0] $end
+$var wire 16 *" out4 [15:0] $end
+$var wire 16 +" out3 [15:0] $end
+$var wire 16 ," out2 [15:0] $end
+$var wire 16 -" out1 [15:0] $end
+$var wire 16 ." out [15:0] $end
+$var wire 1 /" isbitpresent3 $end
+$var wire 1 0" isbitpresent2 $end
+$var wire 1 1" isbitpresent1 $end
+$var wire 1 2" isbitpresent0 $end
+$upscope $end
+$scope module h8 $end
+$var wire 1 , clk $end
+$var wire 4 3" h [3:0] $end
+$var wire 4 4" x [3:0] $end
+$var wire 16 5" out4 [15:0] $end
+$var wire 16 6" out3 [15:0] $end
+$var wire 16 7" out2 [15:0] $end
+$var wire 16 8" out1 [15:0] $end
+$var wire 16 9" out [15:0] $end
+$var wire 1 :" isbitpresent3 $end
+$var wire 1 ;" isbitpresent2 $end
+$var wire 1 <" isbitpresent1 $end
+$var wire 1 =" isbitpresent0 $end
+$upscope $end
+$scope module h9 $end
+$var wire 1 , clk $end
+$var wire 4 >" h [3:0] $end
+$var wire 4 ?" x [3:0] $end
+$var wire 16 @" out4 [15:0] $end
+$var wire 16 A" out3 [15:0] $end
+$var wire 16 B" out2 [15:0] $end
+$var wire 16 C" out1 [15:0] $end
+$var wire 16 D" out [15:0] $end
+$var wire 1 E" isbitpresent3 $end
+$var wire 1 F" isbitpresent2 $end
+$var wire 1 G" isbitpresent1 $end
+$var wire 1 H" isbitpresent0 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0H"
+0G"
+0F"
+1E"
+b1000 D"
+b0 C"
+b0 B"
+b0 A"
+b1000 @"
+b1 ?"
+b1000 >"
+1="
+1<"
+1;"
+0:"
+b1110 9"
+b10 8"
+b100 7"
+b1000 6"
+b0 5"
+b10 4"
+b111 3"
+02"
+11"
+10"
+0/"
+b11110 ."
+b0 -"
+b1010 ,"
+b10100 +"
+b0 *"
+b101 )"
+b110 ("
+1'"
+0&"
+1%"
+0$"
+b1000001 #"
+b1101 ""
+b0 !"
+b110100 ~
+b0 }
+b1101 |
+b101 {
+0z
+0y
+1x
+0w
+b110100 v
+b0 u
+b0 t
+b110100 s
+b0 r
+b1101 q
+b100 p
+1o
+1n
+0m
+0l
+b1001 k
+b11 j
+b110 i
+b0 h
+b0 g
+b11 f
+b11 e
+0d
+1c
+0b
+0a
+b10010 `
+b0 _
+b10010 ^
+b0 ]
+b0 \
+b1001 [
+b10 Z
+1Y
+0X
+0W
+0V
+b1 U
+b1 T
+b0 S
+b0 R
+b0 Q
+b1 P
+b1 O
+1N
+0M
+0L
+1K
+b1110101 J
+b1101 I
+b0 H
+b0 G
+b1101000 F
+b1101 E
+b1001 D
+0C
+0B
+0A
+0@
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b100 :
+b0 9
+bx 8
+b1101 7
+b1 6
+b10 5
+b101 4
+b1101 3
+b1101 2
+b11 1
+b1001 0
+b1 /
+b100 .
+b0 -
+1,
+b1101 +
+b1 *
+b10 )
+b101 (
+b1101 '
+b1101 &
+b11 %
+b1001 $
+b1 #
+b100 "
+bx !
+$end
+#1
+0,
+#2
+b101001010 !
+b101001010 8
+b111000 F
+b101000 D"
+b101000 @"
+b10100 7"
+b101000 6"
+b11000 ~
+b100100 v
+b100100 s
+b11000 i
+b11010 `
+b11010 ^
+b111111 J
+b111 I
+b1000110 9"
+b1010 8"
+b11110 #"
+b110 ""
+b100100 k
+b1100 j
+b1101 U
+b1101 T
+1,
+b1 -
+b111 +
+b111 7
+b111 E
+b101 *
+b101 6
+b101 ?"
+b1010 )
+b1010 5
+b1010 4"
+b110 '
+b110 3
+b110 |
+b1001 &
+b1001 2
+b1001 q
+b1100 %
+b1100 1
+b1100 f
+b1101 $
+b1101 0
+b1101 [
+b1101 #
+b1101 /
+b1101 P
+b110 "
+b110 .
+b110 :
+#3
+0,
+#4
+b101011100 !
+b101011100 8
+b101000 F
+b1101000 D"
+b1101000 @"
+b11010 7"
+b110100 6"
+b11000 ,"
+b1001000 ."
+b110000 +"
+b10100 ~
+b100000 v
+b100000 s
+b11100 i
+b100 `
+b100 ^
+b101101 J
+b101 I
+b1011011 9"
+b1101 8"
+b11001 #"
+b101 ""
+b101010 k
+b1110 j
+b1111 U
+b1111 T
+1,
+b10 -
+b101 +
+b101 7
+b101 E
+b1101 *
+b1101 6
+b1101 ?"
+b1101 )
+b1101 5
+b1101 4"
+b1100 (
+b1100 4
+b1100 )"
+b101 '
+b101 3
+b101 |
+b1000 &
+b1000 2
+b1000 q
+b1110 %
+b1110 1
+b1110 f
+b10 $
+b10 0
+b10 [
+b1111 #
+b1111 /
+b1111 P
+b10 "
+b10 .
+b10 :
+#5
+0,
+#6
+b110010111 !
+b110010111 8
+b11000 F
+b110 7"
+b1100 6"
+b1100 ,"
+b100100 ."
+b11000 +"
+b110100 ~
+b101000 v
+b101000 s
+b0 i
+b0 `
+b0 ^
+b11011 J
+b11 I
+b10101 9"
+b11 8"
+b1000001 #"
+b1101 ""
+b0 k
+b0 j
+b1010 U
+b1010 T
+1,
+b11 -
+b11 +
+b11 7
+b11 E
+b11 )
+b11 5
+b11 4"
+b110 (
+b110 4
+b110 )"
+b1101 '
+b1101 3
+b1101 |
+b1010 &
+b1010 2
+b1010 q
+b0 %
+b0 1
+b0 f
+b0 $
+b0 0
+b0 [
+b1010 #
+b1010 /
+b1010 P
+b11 "
+b11 .
+b11 :
+#7
+0,
+#8
+b101001010 !
+b101001010 8
+b1100000 F
+b1010000 D"
+b1010000 @"
+b10100 7"
+b101000 6"
+b110 ,"
+b10010 ."
+b1100 +"
+b111100 ~
+b110100 v
+b110100 s
+b11100 i
+b100 `
+b100 ^
+b1101100 J
+b1100 I
+b1000110 9"
+b1010 8"
+b1001011 #"
+b1111 ""
+b101010 k
+b1110 j
+b101 U
+b101 T
+1,
+b100 -
+b1100 +
+b1100 7
+b1100 E
+b1010 *
+b1010 6
+b1010 ?"
+b1010 )
+b1010 5
+b1010 4"
+b11 (
+b11 4
+b11 )"
+b1111 '
+b1111 3
+b1111 |
+b1101 &
+b1101 2
+b1101 q
+b1110 %
+b1110 1
+b1110 f
+b10 $
+b10 0
+b10 [
+b101 #
+b101 /
+b101 P
+b1011 "
+b1011 .
+b1011 :
+#9
+0,
+#10
+b110111101 !
+b110111101 8
+b1110000 F
+b110000 D"
+b110000 @"
+b1100 7"
+b11000 6"
+b10110 ,"
+b1000010 ."
+b101100 +"
+b100100 ~
+b100000 v
+b100000 s
+b10000 i
+b10 `
+b10 ^
+b1111110 J
+b1110 I
+b101010 9"
+b110 8"
+b101101 #"
+b1001 ""
+b11000 k
+b1000 j
+b1010 U
+b1010 T
+1,
+b101 -
+b1110 +
+b1110 7
+b1110 E
+b110 *
+b110 6
+b110 ?"
+b110 )
+b110 5
+b110 4"
+b1011 (
+b1011 4
+b1011 )"
+b1001 '
+b1001 3
+b1001 |
+b1000 &
+b1000 2
+b1000 q
+b1000 %
+b1000 1
+b1000 f
+b1 $
+b1 0
+b1 [
+b1010 #
+b1010 /
+b1010 P
+b10 "
+b10 .
+b10 :
+#11
+0,
+#12
+b110001011 !
+b110001011 8
+1,
+#13
+0,
+#14
+1,
+#15
+0,
+#16
+1,
+#17
+0,
+#18
+1,
+#19
+0,
+#20
+1,
+#21
+0,
+#22
+1,
+#23
+0,
+#24
+1,
+#25
+0,
+#26
+1,
+#27
+0,
+#28
+1,
+#29
+0,
+#30
+1,

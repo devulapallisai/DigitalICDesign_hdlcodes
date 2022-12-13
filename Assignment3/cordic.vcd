@@ -1,0 +1,580 @@
+$date
+	Wed Dec  7 03:44:40 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module cordic_tb $end
+$var wire 16 ! norm [15:0] $end
+$var wire 16 " angle [15:0] $end
+$var reg 16 # Xin [15:0] $end
+$var reg 16 $ Yin [15:0] $end
+$var reg 1 % clk $end
+$var integer 32 & scaleingfactor [31:0] $end
+$var real 1 ' t $end
+$scope module cordic $end
+$var wire 16 ( Xin [15:0] $end
+$var wire 16 ) Yin [15:0] $end
+$var wire 1 % clk $end
+$var wire 16 * angle_rotated_total [15:0] $end
+$var wire 16 + Yf [15:0] $end
+$var wire 16 , Xf [15:0] $end
+$var reg 16 - inclination [15:0] $end
+$var reg 16 . norm [15:0] $end
+$var real 1 / allcosmulfactor $end
+$scope module c0 $end
+$var wire 16 0 Xin [15:0] $end
+$var wire 16 1 Yin [15:0] $end
+$var wire 16 2 Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 3 i [2:0] $end
+$var wire 16 4 prev_angle [15:0] $end
+$var reg 16 5 Xout [15:0] $end
+$var reg 16 6 Yout [15:0] $end
+$var reg 16 7 Zout [15:0] $end
+$upscope $end
+$scope module c1 $end
+$var wire 16 8 Xin [15:0] $end
+$var wire 16 9 Yin [15:0] $end
+$var wire 16 : Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 ; i [2:0] $end
+$var wire 16 < prev_angle [15:0] $end
+$var reg 16 = Xout [15:0] $end
+$var reg 16 > Yout [15:0] $end
+$var reg 16 ? Zout [15:0] $end
+$upscope $end
+$scope module c2 $end
+$var wire 16 @ Xin [15:0] $end
+$var wire 16 A Yin [15:0] $end
+$var wire 16 B Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 C i [2:0] $end
+$var wire 16 D prev_angle [15:0] $end
+$var reg 16 E Xout [15:0] $end
+$var reg 16 F Yout [15:0] $end
+$var reg 16 G Zout [15:0] $end
+$upscope $end
+$scope module c3 $end
+$var wire 16 H Xin [15:0] $end
+$var wire 16 I Yin [15:0] $end
+$var wire 16 J Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 K i [2:0] $end
+$var wire 16 L prev_angle [15:0] $end
+$var reg 16 M Xout [15:0] $end
+$var reg 16 N Yout [15:0] $end
+$var reg 16 O Zout [15:0] $end
+$upscope $end
+$scope module c4 $end
+$var wire 16 P Xin [15:0] $end
+$var wire 16 Q Yin [15:0] $end
+$var wire 16 R Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 S i [2:0] $end
+$var wire 16 T prev_angle [15:0] $end
+$var reg 16 U Xout [15:0] $end
+$var reg 16 V Yout [15:0] $end
+$var reg 16 W Zout [15:0] $end
+$upscope $end
+$scope module c5 $end
+$var wire 16 X Xin [15:0] $end
+$var wire 16 Y Yin [15:0] $end
+$var wire 16 Z Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 [ i [2:0] $end
+$var wire 16 \ prev_angle [15:0] $end
+$var reg 16 ] Xout [15:0] $end
+$var reg 16 ^ Yout [15:0] $end
+$var reg 16 _ Zout [15:0] $end
+$upscope $end
+$scope module c6 $end
+$var wire 16 ` Xin [15:0] $end
+$var wire 16 a Yin [15:0] $end
+$var wire 16 b Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 c i [2:0] $end
+$var wire 16 d prev_angle [15:0] $end
+$var reg 16 e Xout [15:0] $end
+$var reg 16 f Yout [15:0] $end
+$var reg 16 g Zout [15:0] $end
+$upscope $end
+$scope module c7 $end
+$var wire 16 h Xin [15:0] $end
+$var wire 16 i Yin [15:0] $end
+$var wire 16 j Zin [15:0] $end
+$var wire 1 % clk $end
+$var wire 3 k i [2:0] $end
+$var wire 16 l prev_angle [15:0] $end
+$var reg 16 m Xout [15:0] $end
+$var reg 16 n Yout [15:0] $end
+$var reg 16 o Zout [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx o
+bx n
+bx m
+b1010001 l
+b111 k
+bx j
+bx i
+bx h
+bx g
+bx f
+bx e
+b10100010 d
+b110 c
+bx b
+bx a
+bx `
+bx _
+bx ^
+bx ]
+b101000101 \
+b101 [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+b1010001011 T
+b100 S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+b10100010001 L
+b11 K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+b100111111011 D
+b10 C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+b1001011100100 <
+b1 ;
+b10000000000000 :
+bx 9
+bx 8
+b10000000000000 7
+bx 6
+bx 5
+b10000000000000 4
+b0 3
+b0 2
+b1111101000 1
+b1111101000 0
+r0.612 /
+b0 .
+bx -
+bx ,
+bx +
+bx *
+b1111101000 )
+b1111101000 (
+r0 '
+b10000000000000000 &
+1%
+b1111101000 $
+b1111101000 #
+bx "
+b0 !
+$end
+#1
+0%
+#2
+b0xxxxxxxxxxx100 ?
+b0xxxxxxxxxxx100 B
+b0 6
+b0 9
+b11111010000 5
+b11111010000 8
+1%
+#3
+0%
+#4
+b11001011100100 ?
+b11001011100100 B
+b1111110000011000 >
+b1111110000011000 A
+b11111010000 =
+b11111010000 @
+1%
+#5
+0%
+#6
+b10100011101001 G
+b10100011101001 J
+b1111111000001100 F
+b1111111000001100 I
+b100011001010 E
+b100011001010 H
+1%
+#7
+0%
+#8
+b10001111011000 O
+b10001111011000 R
+b1111111100100101 N
+b1111111100100101 Q
+b100100001001 M
+b100100001001 P
+1%
+#9
+0%
+#10
+b10000101001101 W
+b10000101001101 Z
+b1111111110110101 V
+b1111111110110101 Y
+b100100010111 U
+b100100010111 X
+1%
+#11
+0%
+#12
+b10000000001000 _
+b10000000001000 b
+b1111111111111101 ^
+b1111111111111101 a
+b100100011010 ]
+b100100011010 `
+1%
+#13
+0%
+#14
+b1111101100110 g
+b1111101100110 j
+b100001 f
+b100001 i
+b100100011011 e
+b100100011011 h
+1%
+#15
+0%
+#16
+b1111110110111 *
+b1111110110111 o
+b1111 +
+b1111 n
+b100100011011 ,
+b100100011011 m
+1%
+#17
+0%
+#18
+b10110010011 !
+b10110010011 .
+b1111110110111 "
+b1111110110111 -
+1%
+#19
+0%
+#20
+1%
+#21
+0%
+#22
+1%
+#23
+0%
+#24
+1%
+#25
+0%
+#26
+1%
+#27
+0%
+#28
+1%
+#29
+0%
+#30
+1%
+#31
+0%
+#32
+b1111101000 6
+b1111101000 9
+b1111101000 5
+b1111101000 8
+b0 0
+1%
+r44.5989990234375 '
+b0 #
+b0 (
+#33
+0%
+#34
+b111110100 >
+b111110100 A
+b10111011100 =
+b10111011100 @
+1%
+#35
+0%
+#36
+b11110011011111 G
+b11110011011111 J
+b1111101 F
+b1111101 I
+b11001011001 E
+b11001011001 H
+1%
+#37
+0%
+#38
+b100000111110000 O
+b100000111110000 R
+b1111111110110010 N
+b1111111110110010 Q
+b11001101000 M
+b11001101000 P
+1%
+#39
+0%
+#40
+b11111101100101 W
+b11111101100101 Z
+b11000 V
+b11000 Y
+b11001101101 U
+b11001101101 X
+1%
+#41
+0%
+#42
+b100000010101010 _
+b100000010101010 b
+b1111111111100101 ^
+b1111111111100101 a
+b11001101101 ]
+b11001101101 `
+1%
+#43
+0%
+#44
+b100000000001000 g
+b100000000001000 j
+b1111111111111110 f
+b1111111111111110 i
+b11001101110 e
+b11001101110 h
+1%
+#45
+0%
+#46
+b11111110110111 *
+b11111110110111 o
+b1010 +
+b1010 n
+b11001101111 ,
+b11001101111 m
+1%
+#47
+0%
+#48
+b1111110000011000 6
+b1111110000011000 9
+b1111110000 !
+b1111110000 .
+b11111110110111 "
+b11111110110111 -
+b1111101000 0
+1%
+b0 1
+b0 $
+b0 )
+b1111101000 #
+b1111101000 (
+#49
+0%
+#50
+b110100011100 ?
+b110100011100 B
+b1111111000001100 >
+b1111111000001100 A
+1%
+#51
+0%
+#52
+b1100100001 G
+b1100100001 J
+b1111111110000011 F
+b1111111110000011 I
+1%
+#53
+0%
+#54
+b1111111000010000 O
+b1111111000010000 R
+b1001110 N
+b1001110 Q
+b11001101001 M
+b11001101001 P
+1%
+#55
+0%
+#56
+b10011011 W
+b10011011 Z
+b1111111111101000 V
+b1111111111101000 Y
+1%
+#57
+0%
+#58
+b1111111101010110 _
+b1111111101010110 b
+b11011 ^
+b11011 a
+b11001101110 ]
+b11001101110 `
+1%
+#59
+0%
+#60
+b1111111111111000 g
+b1111111111111000 j
+b10 f
+b10 i
+1%
+#61
+0%
+#62
+b1001001 *
+b1001001 o
+b1111111111110110 +
+b1111111111110110 n
+b11001101110 ,
+b11001101110 m
+1%
+#63
+0%
+#64
+b1111101111 !
+b1111101111 .
+b1001001 "
+b1001001 -
+1%
+r89.5989990234375 '
+#65
+0%
+#66
+1%
+#67
+0%
+#68
+1%
+#69
+0%
+#70
+1%
+#71
+0%
+#72
+1%
+#73
+0%
+#74
+1%
+#75
+0%
+#76
+1%
+#77
+0%
+#78
+1%
+#79
+0%
+#80
+1%
+r0.4010009765625 '
+#81
+0%
+#82
+1%
+#83
+0%
+#84
+1%
+#85
+0%
+#86
+1%
+#87
+0%
+#88
+1%
+#89
+0%
+#90
+1%
+#91
+0%
+#92
+1%
+#93
+0%
+#94
+1%
+#95
+0%
+#96
+1%
+#97
+0%
+#98
+1%
+#99
+0%
+#100
+1%
+#101
+0%
+#102
+1%
+#103
+0%
+#104
+1%
+#105
+0%
+#106
+1%
+#107
+0%
+#108
+1%
+#109
+0%
+#110
+1%
+#111
+0%
+#112
+1%
+#113
+0%
+#114
+1%
